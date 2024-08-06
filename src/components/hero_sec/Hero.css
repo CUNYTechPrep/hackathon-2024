@@ -1,0 +1,30 @@
+.left-scrollbar {
+    overflow-y: auto;
+    max-height: 17rem; /* Equivalent to max-h-96 in Tailwind */
+    padding-right: 1rem; 
+    direction: rtl; /* scrollbar appear on the left side */
+    padding-left: 1rem; /* space between text and scrollbar */
+  }
+  
+  .left-scrollbar > * {
+    direction: ltr; /* p text left-aligned */
+  }
+  
+  .left-scrollbar::-webkit-scrollbar {
+    width: 12px; /* scrollbar width */
+  }
+  
+  .left-scrollbar::-webkit-scrollbar-track {
+    background: transparent; /* scrollbar bkgd */
+  }
+  
+  .left-scrollbar::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 6px;
+    border: 3px solid transparent; /* Padding around bar */
+  }
+  
+  .left-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #555; /* hover color of scrollbar */
+  }
+  
