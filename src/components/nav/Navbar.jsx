@@ -72,6 +72,7 @@ const Navbar = () => {
                             className="m-2"/>
                         </a>
                     </div>
+                    {/* Menu button */}
                     <div className="flex items-center">
                         <button className="focus:outline-none lg:hidden" onClick={toggleMobileMenu}>
                             {isMobileMenuOpen ? (

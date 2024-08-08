@@ -10,12 +10,12 @@ const Hero = () => {
     <section className="flex flex-col min-h-screen items-center">
     {/* Banner */}
     <img src={banner} 
-    alt="Hackathon theme banner" className="w-full" />
+    alt="Hackathon theme banner" className="w-full mt-14" />
    
 
     {/* Greet Section */}
-    <div className="w-full text-center mt-8 ">
-      <h1 className="p-2 text-3xl font-bold md:text-4xl lg:text-5xl">
+    <div className="w-full text-center mt-5 ">
+      <h1 className="p-2 text-3xl font-extrabold md:text-4xl lg:text-5xl">
         {HERO.greet}
       </h1>
     </div>
@@ -24,11 +24,11 @@ const Hero = () => {
     <div className="flex flex-col md:flex-row w-full items-center">
       {/* Description Section */}
       <div className="w-full md:w-1/2 flex flex-col items-center md:items-start p-4">
-        <h2 className="mb-4 text-2xl tracking-tighter lg:text-5xl">
+        <h2 className="mb-4 text-2xl font-medium tracking-tighter lg:text-4xl">
           {HERO.intro}
         </h2>
         <div className="left-scrollbar-container">
-          <p className="text-lg left-scrollbar text-left">
+          <p className="text-base left-scrollbar text-left">
             {HERO.description}
           </p>
         </div>

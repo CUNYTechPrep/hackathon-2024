@@ -1,6 +1,8 @@
 import React from 'react';
 import Hero from './components/hero_sec/Hero';
 import Navbar from './components/nav/Navbar';
+import Countdwn from './components/theme_cntdwn/Countdwn';
+import Sidebar from './components/left_sidebar/Sidebar';
 
 const App = () => {
   return (
@@ -14,6 +16,8 @@ const App = () => {
         
         <Navbar />
         <Hero />
+        {/* <Sidebar /> */}
+        <Countdwn />
         
       </div>
     </div>

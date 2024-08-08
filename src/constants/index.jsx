@@ -35,8 +35,8 @@ export const HERO = {
   intro: "A hackathon exclusively for CUNY Tech Prep’s Cohort 10 fellows.",
   description: (
     <>
-      We are excited to host our annual hackathon, welcoming the new cohort of CTP fellows with a week-long event that blends professional development, technical training, mentoring, and networking with collaborative project hacking. CTP Hacks will take place from August 19-23, 2024.
-      <br />
+      We are excited to host our annual hackathon, welcoming the new cohort of CTP fellows with a week-long event that blends professional development, technical training, mentoring, and networking with collaborative project hacking. CTP Hacks will take place from August (19-23) 2024.
+      <br /><br />
       This year, we are thrilled to partner with The City University of New York (CUNY) Student Affairs, providing fellows the opportunity to develop innovative solutions addressing Essential Needs for CUNY Student Success.
     </>
   ),

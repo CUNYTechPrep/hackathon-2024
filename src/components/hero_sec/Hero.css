@@ -1,6 +1,6 @@
 .left-scrollbar {
     overflow-y: auto;
-    max-height: 17rem; /* Equivalent to max-h-96 in Tailwind */
+    max-height: 12rem; /* Equivalent to max-h-96 in Tailwind */
     padding-right: 1rem; 
     direction: rtl; /* scrollbar appear on the left side */
     padding-left: 1rem; /* space between text and scrollbar */
