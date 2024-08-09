@@ -47,7 +47,7 @@ const Navbar = () => {
                     {/* Navbar Tabs */}
                     <div>
                         <ul className="flex items-center gap-4">
-                            {/* Navigation links declared in content folder */}
+                            {/* Navigation links declared in constants folder index.jsx file */}
                             {NAVIGATION_LINKS.map((item, index) => (
                             <li key={index}>
                                 
