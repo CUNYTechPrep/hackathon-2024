@@ -4,6 +4,7 @@ import Navbar from './components/nav/Navbar';
 import Countdwn from './components/theme_cntdwn/Countdwn';
 import SidePanel from './components/left_sidebar/SidePanel';
 import SponsorSection from './components/sponsor/SponsorSection';
+import EventList from './components/highlights/EventList';
 
 const App = () => {
   return (
@@ -19,12 +20,15 @@ const App = () => {
         <Navbar />
         <Hero />
         
+        
         {/* Flex container for SidePanel and Countdwn */}
         <div className="flex flex-col md:flex-row w-full space-y-4 md:space-y-0">
           <SidePanel />
           <div className="flex-1">
             <Countdwn />
             <SponsorSection />
+            <EventList />
+            
           </div>
         </div>
         

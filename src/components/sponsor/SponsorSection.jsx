@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import lyftLogo from '../../assets/Lyft-Logo.wine.png'; 
 import asanaLogo from '../../assets/asana-1.png';      
 import diversityLogo from '../../assets/diversity.png'; 
-import linkedinLogo from '../../assets/eac0bafd30d0d8d0ccb98dbc3779bbb2.png'; 
+import linkedinLogo from '../../assets/linkedin.png'; 
 
 const sponsors = [
   { src: lyftLogo, alt: 'Lyft' },
