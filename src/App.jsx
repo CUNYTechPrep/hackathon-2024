@@ -5,7 +5,7 @@ import Countdwn from './components/theme_cntdwn/Countdwn';
 import SidePanel from './components/left_sidebar/SidePanel';
 import SponsorSection from './components/sponsor/SponsorSection';
 import EventList from './components/highlights/EventList';
-// import Projects from './components/project_sub/Projects';
+import Projects from './components/project_sub/Projects';
 import Footer from './components/footer/Footer';
 
 const App = () => {
@@ -36,7 +36,7 @@ const App = () => {
         
         {/* 8.13.2024 | emain hidden until content is updated with cohort 10 projevct submissions and replace DevPost link + discord section with winner project. */}
 
-        {/* <Projects /> */}
+        <Projects />
         
         <Footer />
       </div>

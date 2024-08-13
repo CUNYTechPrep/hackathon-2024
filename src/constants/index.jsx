@@ -3,7 +3,7 @@ import {
   // FaGithub,
   FaLinkedin,
   FaFacebook,
-  // FaDiscord,
+  FaDiscord,
   FaInstagram,
 } from "react-icons/fa6";
 
@@ -15,11 +15,11 @@ import projectImage5 from "../assets/project5.jpeg";
 import projectImage6 from "../assets/project6.jpeg";
 
 export const NAVIGATION_LINKS = [
-  { label: "Welcome", href: "#welcom" },
+  { label: "Welcome", href: "#welcome" },
   { label: "Hacks24", href: "#hacks24" },
   { label: "Highlights", href: "#highlights" },
   // { label: "Projects", href: "#projects" },
-  // { label: "Contact", href: "#contact" },
+  { label: "Community", href: "#community" },
 ];
 
 export const HERO = {
@@ -89,27 +89,27 @@ export const PROJECTS = [
 
 export const SOCIAL_MEDIA_LINKS = [
   {
-    href: "https://x.com/",
+    href: "https://www.facebook.com/cunytechprep/",
     icon: <FaFacebook fontSize={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://x.com/",
+    href: "https://discord.gg/qdTbTPsx",
     icon: <FaDiscord fontSize={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://x.com/",
+    href: "https://www.instagram.com/cuny_tech_prep/",
     icon: <FaInstagram fontSize={25} className="hover:opacity-80" />,
   },
+  // {
+  //   href: "https://x.com/",
+  //   icon: <FaXTwitter fontSize={25} className="hover:opacity-80" />,
+  // },
+  // {
+  //   href: "https://github.com/",
+  //   icon: <FaGithub fontSize={25} className="hover:opacity-80" />,
+  // },
   {
-    href: "https://x.com/",
-    icon: <FaXTwitter fontSize={25} className="hover:opacity-80" />,
-  },
-  {
-    href: "https://github.com/",
-    icon: <FaGithub fontSize={25} className="hover:opacity-80" />,
-  },
-  {
-    href: "https://www.linkedin.com/",
+    href: "https://www.linkedin.com/company/cuny-tech-prep/",
     icon: <FaLinkedin fontSize={25} className="hover:opacity-80" />,
   },
 ];
