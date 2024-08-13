@@ -34,7 +34,7 @@ const EventList = () => {
 
       {/* Right Side: Event List */}
       <div className="flex-1 bg-white bg-opacity-20 backdrop-blur-sm p-4 rounded-lg shadow-lg md:ml-4 mt-4 md:mt-0 h-80 overflow-y-auto">
-        <h3 className="text-2xl font-bold mb-4 text-white">Upcoming Events</h3>
+        <h3 className="text-2xl font-bold mb-4 text-white">Workshops Schedule</h3>
         <ul className="space-y-4">
           {events.map((event, index) => (
             <li key={index} className="border-b border-gray-600 pb-4">
