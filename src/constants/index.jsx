@@ -1,9 +1,9 @@
 import {
-  FaXTwitter,
-  FaGithub,
+  // FaXTwitter,
+  // FaGithub,
   FaLinkedin,
   FaFacebook,
-  FaDiscord,
+  // FaDiscord,
   FaInstagram,
 } from "react-icons/fa6";
 

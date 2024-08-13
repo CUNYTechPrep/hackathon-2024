@@ -2,14 +2,15 @@ import React from 'react';
 
 const EventList = () => {
   const events = [
-    { date: 'AUG 19', title: 'Hackathon Orientation/Q&A', time: 'Mon 10:00am - 10:45am', duration: '45mins' },
+    { date: 'AUG 19', title: 'Hackathon Orientation', time: 'Mon 10:00am - 10:45am', duration: '45mins' },
     { date: 'AUG 19', title: 'Hackathon 101', time: 'Mon 11:00am - 11:45am', duration: '45mins' },
     { date: 'AUG 19', title: 'How to use GitHub', time: 'Mon 1:00pm - 2:00pm', duration: '1hr' },
     { date: 'AUG 19', title: 'Basics of Software Development Lifecycle', time: 'Mon 3:00pm - 4:00pm', duration: '1hr' },
-    { date: 'AUG 19', title: 'Panels Discussion on Careers in Data Science, AI, & Startup', time: 'Mon 5:00pm - 6:00pm', duration: '1hr' },
-    { date: 'AUG 20', title: 'Networking: Crafting a LinkedIn Profile that Attracts Recruiters', time: 'Tues 11:00am - 12:00pm', duration: '1hr' },
+    { date: 'AUG 19', title: 'Panels Discussion: Navigating Careers in Data Science, AI, & Entrepreneurship', time: 'Mon 5:00pm - 6:00pm', duration: '1hr' },
+    { date: 'AUG 20', title: 'Introduction to React and API Integration', time: 'Tues 10:00am - 11:00am', duration: '1hr' },
+    { date: 'AUG 20', title: 'How to Network and Build Connections on LinkedIn', time: 'Tues 11:00am - 12:00pm', duration: '1hr' },
     { date: 'AUG 20', title: 'Build, host, and deploy webapps in 10min with Python', time: 'Tue 12:30pm - 1:30pm', duration: '1hr' },
-    { date: 'AUG 20', title: 'CTP Alumni talk on Teamwork (title TBD)', time: 'Tues 3:00pm - 4:00pm', duration: '1hr' },
+    { date: 'AUG 20', title: 'CTP Alumni Talk: Crafting Effective Teams ', time: 'Tues 3:00pm - 4:00pm', duration: '1hr' },
     { date: 'AUG 20', title: 'Recruiting Q/A Office Hour: Lyft', time: 'Tues 5:00pm - 6:00pm', duration: '1hr' },
   ];
 
