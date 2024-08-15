@@ -173,7 +173,7 @@ const Countdown = () => {
                 />
                 <motion.button 
                     className="bg-gradient-to-r from-yellow-500 via-yellow-600 to-yellow-700 hover:opacity-90 text-white font-bold py-2 px-6 rounded-full transition-opacity duration-300"
-                    onClick={() => window.open('https://discord.gg/qdTbTPsx', '_blank')}
+                    onClick={() => window.open('https://discord.gg/xgNdy3sh7d', '_blank')}
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: 0.9 }}
                 >
