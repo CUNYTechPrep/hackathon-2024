@@ -19,7 +19,6 @@ export const NAVIGATION_LINKS = [
   { label: "Hacks24", href: "#hacks24" },
   { label: "Highlights", href: "#highlights" },
   // { label: "Projects", href: "#projects" },
-  // { label: "Community", href: "#community" },
 ];
 
 export const HERO = {

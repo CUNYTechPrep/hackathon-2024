@@ -3,6 +3,7 @@ import lyftLogo from '../../assets/Lyft-Logo.wine.png';
 import asanaLogo from '../../assets/asana-logo.png';      
 import diversityLogo from '../../assets/diversity-it-logo.png'; 
 import linkedinLogo from '../../assets/LinkedIn-Logo.png'; 
+import background from '../../assets/bg-img5.png'; 
 
 const sponsors = [
   { src: lyftLogo, alt: 'Lyft' },
@@ -22,7 +23,12 @@ const SponsorSection = () => {
   }, []);
 
   return (
-    <div className="w-full p-4 mt-4 rounded-lg shadow-lg bg-opacity-75 bg-cover bg-center" style={{ backgroundColor: 'rgba(255, 255, 255, 0.1)', backgroundImage: `url('/path/to/your/background/image')` }}>
+    <div className="w-full p-4 mt-4 rounded-lg shadow-lg bg-opacity-75 bg-cover bg-center" 
+    style={{ 
+       backgroundColor: 'rgba(255, 255, 255, 0.1)',
+        backgroundImage: `url(${background})`, 
+  }}
+    >
       {/* Special Thanks Section */}
       <h3 className="text-2xl font-bold text-center text-white mb-6">
         Special Thanks to Our Sponsors!
