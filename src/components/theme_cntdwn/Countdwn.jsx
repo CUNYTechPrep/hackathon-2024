@@ -4,7 +4,7 @@ import dc from '../../assets/dc.png';
 
 const Countdown = () => {
     const calculateTimeLeft = () => {
-        const targetDate = new Date("2024-08-19T00:00:00"); // Replace with your target date
+        const targetDate = new Date("2024-08-21T00:00:00"); // Replace with your target (Date|YYYY-MM-DD) & (Time|HH:MM:SS)
         const now = new Date();
         const difference = targetDate - now;
 
